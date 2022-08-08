@@ -58,7 +58,7 @@
                             <a class="header-bottom-nav__link" href="#">Полезные Статьи</a>
                         </li>
                         <li class="header-bottom-nav__item">
-                            <a class="header-bottom-nav__link" href="#">FAQ</a>
+                            <a class="header-bottom-nav__link" href="faq.html">FAQ</a>
                         </li>
                         <li class="header-bottom-nav__item">
                             <a class="header-bottom-nav__link" href="#">Контакты</a>
@@ -303,5 +303,25 @@
             <span class="site-footer__title">© 2020 example. All Rights Reserved.</span>
         </div>
     </footer>
+
+    <section class="modal">
+        <div class="modal__wrapper">
+            <button class="modal__close"></button>
+            <div class="modal__left modal-window-left">
+                <strong class="modal-window-left__heading">Авторизация:</strong>
+                <a href="" class="modal-window-left__link modal-window-left__link--google">Войти через Google</a>
+                <a href="" class="modal-window-left__link modal-window-left__link--facebook">Войти через Facebook</a>
+            </div>
+            <form class="modal__form form-box" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+                <strong class="form-box__heading">Задать вопрос</strong>
+                <input class="form-box__input" type="text" name="user__name" aria-label="Enter your name" minlength="2" placeholder="Ваше имя" required>
+                <textarea class="form-box__text" name="user__info" aria-label="Enter your info" cols="30" rows="10" placeholder="Опишите Ваш вопрос.
+Например: в каком возрасте можно прививать от бешенства?"></textarea>
+                <button class="form-box__btn" type="submit ">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
