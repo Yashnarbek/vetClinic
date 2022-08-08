@@ -1553,8 +1553,156 @@
     line-height: 20px;
     color: #949494;    
 }
-    /* FAQ html HTML FILE END  */
+    /* FAQ HTML FILE END  */
 
+
+    /* CONTACT HTML FILE START  */
+
+    .contact {
+        padding-top: 120px;
+        background-image: url("../images/contact-dog.png");
+        background-repeat: no-repeat;
+        background-position: calc(50% + 550px) 40px;
+    }
+    .contact-hero {
+        width: 445px;
+        margin-left: 120px;
+        padding-bottom: 50px;
+    }
+    .contact__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;        
+    }
+    .contact__title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;        
+    }
+    .contact__list {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 100px;
+        margin-left: 120px;
+        padding-left: 0;
+    }
+    .contact__item {
+        width: 155px;
+        margin-right: 120px;
+    }
+    .contact__adress-link {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;      
+    }
+    .contact__adress-link::before {
+        content: "";
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 76px;
+        height: 76px;
+        background-image: url("../images/adress-dog.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .contact__time {
+        margin-bottom: 5px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        color: #333333;  
+    }
+    .contact__time-box::before {
+        content: "";
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 76px;
+        height: 76px;
+        background-image: url("../images/calendar-contact.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .contact__tel-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact__tel-box::before {
+        content: "";
+        display: block;
+        margin-bottom: 20px;
+        width: 76px;
+        height: 76px;
+        background-image: url("../images/mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .contact__tel-link {
+        display: inline-block;
+        margin-bottom: 5px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;        
+    }
+
+    .find {
+
+    }
+    .find__wrapper {
+        width: 1495px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 200px;
+    }
+    .find__top {
+        width: 100%;
+        padding-top: 400px;
+        background-image: url("../images/find-top-bg.svg");
+        background-repeat: no-repeat;
+        background-position: calc(50% + 200px) bottom;
+    }
+    .find__heading {
+        margin-bottom: 60px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        color: #333333;        
+    }
+    .find__bottom {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .find__bottom::before {
+        position: absolute;
+        top: -300px;
+        left: 20px;
+        content: "";
+        display: inline-block;
+        width: 445px;
+        height: 345px;
+        background-image: url("../images/bulldog.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .find__location {
+        flex-grow: 1;
+        height: 510px;
+    }
+    .find__rigt {
+    }
+    /* CONTACT FILE HTML END  */
   /* MAIN END  */
   
   /* FOOTER BIGEM  */
@@ -1751,7 +1899,7 @@
     background-image: url("../images/bg-phone-dog.png");
     background-repeat: no-repeat;
     background-position-y: -25px;
-    
+
     animation-name: modal-animation;
     animation-duration: 0.7s;
     animation-timing-function: ease;
