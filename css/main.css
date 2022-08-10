@@ -1655,9 +1655,6 @@
         color: #333333;        
     }
 
-    .find {
-
-    }
     .find__wrapper {
         width: 1495px;
         margin-right: auto;
@@ -1700,9 +1697,310 @@
         flex-grow: 1;
         height: 510px;
     }
-    .find__rigt {
-    }
+
     /* CONTACT FILE HTML END  */
+
+    /* ARTICLES HTML FILE BIGEN  */
+    
+    .article-hero__wrapper {
+        margin-left: 120px;
+        padding-top: 120px;
+        padding-bottom: 135px;
+        background-image: url("../images/articles-hero-cat.png");
+        background-repeat: no-repeat;
+        background-position: calc(50% + 300px) calc(50% + 10px);
+    }
+
+    .articles-hero__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;        
+    }
+    .articles-hero__heading-box {
+        width: 560px;
+    }
+    .articles-hero__title-box {
+        width: 450px;
+    }
+    .articles-hero__title {
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;        
+    }
+    .info-animal {
+        padding-bottom: 150px;
+    }
+    .info-animal__top {
+        position: relative;
+        display: flex;
+        width: 100%;
+        background-color: #fff;
+    }
+    .info-animal__top::before {
+        content: "";
+        display: inline-block;
+        width: 560px;
+        height: auto;
+        background-image: url("../images/two-dogs.png");
+        background-repeat: no-repeat;
+        
+    }
+    .info-animal__top-inner {
+        padding: 30px 155px 100px 80px;
+        width: 750px;
+    }
+    .info-animal__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .info-animal__heading-box {
+        width: 325px;
+    }
+    .info-animal__heading {
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+        color: #333333;        
+    }
+    .info-animal__title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;        
+    }
+    .info-animal__link {
+        position: absolute;
+        left: 630px;
+        bottom: 50px;
+    }
+    .info-animal__list {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info-animal__list .articles-item-box__item {
+        margin-right: 25px;
+        margin-top: 60px;
+        background-color: #F9F9F9;
+        border: 1px solid #E4E4E2;
+        border-radius: 5px;
+    }
+    .info-animal__list .articles-item-box__item:nth-child(4n) {
+        margin-right: 0;
+    }
+    .info-animal__list .articles-item-box__item:nth-child(2)::before {
+        content: "";
+        display: inline-block;
+        width: 305px;
+        height: 180px;
+        background-image: url("../images/dog-and-doctor.png");
+        background-repeat: no-repeat;
+    }
+    .info-animal__list .articles-item-box__item:nth-child(3)::before {
+        content: "";
+        display: inline-block;
+        width: 305px;
+        height: 180px;
+        background-image: url("../images/buy-dog.jpg");
+        background-repeat: no-repeat;
+    }
+    .info-animal__list .articles-item-box__item:nth-child(4)::before {
+        content: "";
+        display: inline-block;
+        width: 305px;
+        height: 180px;
+        background-image: url("../images/clean-toth.png");
+        background-repeat: no-repeat;
+    }
+    .info-animal__list .articles-item-box__item:nth-child(5)::before {
+        content: "";
+        display: inline-block;
+        width: 305px;
+        height: 180px;
+        background-image: url("../images/uzi-tooth.jpg");
+        background-repeat: no-repeat;
+    }
+    .info-animal__list .articles-item-box__item:nth-child(6)::before {
+        content: "";
+        display: inline-block;
+        width: 305px;
+        height: 180px;
+        background-image: url("../images/rebbit.jpg");
+        background-repeat: no-repeat;
+    }
+    .info-animal__list .articles-item-box__item:nth-child(7)::before {
+        content: "";
+        display: inline-block;
+        width: 305px;
+        height: 180px;
+        background-image: url("../images/articles-dog.jpg");
+        background-repeat: no-repeat;
+    }
+    .info-animal__list .articles-item-box__item:nth-child(8)::before {
+        content: "";
+        display: inline-block;
+        width: 305px;
+        height: 180px;
+        background-image: url("../images/yellow-dog.jpg");
+        background-repeat: no-repeat;
+    }
+    .info-animal__more {
+        display: flex;
+        align-items: center;
+        margin-top: 150px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 16px 40px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        background-color: #333333;  
+        color: #FFFFFF;      
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+    }
+    .info-animal__more::before {
+        content: "";
+        display: inline-block;
+        margin-right: 7px;
+        width: 20px;
+        height: 20px;
+        background-image: url("../images/button-cercle.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .info-animal__more:hover {
+        background-color: #FFBD54;
+        color: #333333;
+    }
+    .info-animal__more:active {
+        opacity: 0.6;
+    }
+    /* ARTICLES HTML FILE END  */
+
+
+    /* CLINIC HTML FILE BIGEN  */
+    .clinic-hero {
+        padding-top: 120px;
+        padding-bottom: 290px;
+        background-image: url("../images/clinic-women.png"), url("../images/clinic.svg");
+        background-repeat: no-repeat;
+        background-position: calc(50% + 350px) calc(50%), calc(50% - 300px) bottom;
+    }
+
+    .clinic-hero__wrapper {
+        width: 410px;
+        margin-left: 120px;
+    }
+    .clinic-hero__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;        
+    }
+    .clinic-hero__title {
+        margin-bottom: 0;
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;        
+    }
+
+    .clinic-middle {
+        overflow: hidden;
+
+    }
+    .clinic-middle__start-wrapper {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1440px;
+        background-color: #FFFFFF;
+    }
+    .clinic-middle__start-wrapper::before {
+        content: "";
+        display: inline-block;
+        width: 720px;
+        height: auto;
+        background-image: url("../images/clinic-house.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .clinic-middle__title-box {
+        padding: 127px 68px 140px 100px;
+        width: 720px;
+    }
+    .clinic-middle__start-title {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #949494;        
+    }
+    .clinic-middle__center-wrapper {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1440px;
+        background-color: transparent;
+        background-image: url("../images/clinic-pge-dog.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+
+    .wont {
+        margin-left: 120px;
+        padding-top: 100px;
+        padding-bottom: 330px;
+        background-image: url("../images/clinic-three-pictures.jpg");
+        background-repeat: no-repeat;
+        background-position: calc(50% + 350px) 50px;
+    }
+
+    .wont__wrapper {
+        width: 420px;
+    }
+    .wont__heading {
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 48px;
+        color: #333333;        
+    }
+    .wont__header-part {
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 48px;
+        color: #FFBD54;        
+    }
+    .wont__title-box {
+        width: 343px;
+    }
+    .wont__title {
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;        
+    }
+    /* CLINIC HTML FILE-END  */
   /* MAIN END  */
   
   /* FOOTER BIGEM  */
